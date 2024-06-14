@@ -47,5 +47,4 @@ public class SubService extends BaseEntity<Long> {
     @ManyToMany(mappedBy = "subServices")
     private Set<Specialist> specialists = new HashSet<>();
 
-
 }
