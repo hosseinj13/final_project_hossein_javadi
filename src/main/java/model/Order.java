@@ -58,5 +58,6 @@ public class Order extends BaseEntity<Long> {
 
     @ManyToOne
     Address address;
+
 }
 
