@@ -10,6 +10,5 @@ import java.util.List;
 public interface CommentService extends BaseService<Comment, Long> {
 
     List<Comment> findAllByCustomer(Customer customer);
-
     void deleteComment(Comment selectedComment);
 }
